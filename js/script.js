@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
               const formData = new FormData(form);
 
               try {
-                  const response = await fetch("http://localhost:3000/submit-form", {
+                  const response = await fetch("https://backend-jirehinvestment.replit.app/submit-form", {
                       method: "POST",
                       body: formData
                   });
