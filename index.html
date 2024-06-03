@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>We buy houses cash! | Sell your El Paso property fast</title>
     <link rel="icon" type="image/png" href="images/logo3.png">
     <link rel="stylesheet" href="css/index.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <meta property="og:title" content="We buy houses cash! | Sell your El Paso property fast" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nationwidehousebuyers.org" />
+    <meta property="og:image" content="https://nationwidehousebuyers.org/images/logo4.png" />
+    <meta property="og:description" content="Sell a house fast for cash. Any condition. Get a fast cash offer today!" />
+    <meta property="og:site_name" content="Jireh Solutions" />
 </head>
+
 <body>
     <header class="header">
         <div class="logo">
-            <img src="images/logo2.png" alt="The image">
+            <img src="images/logo4.png" alt="The image">
         </div>
+        <button class="toggleMenu" onclick="toggleMenu()">☰</button>
         <nav class="menu">
             <ul>
-                <li><a class="colorize-home" style="color: #cbab85;" href="/">Home</a></li>
-                <li><a href="/">Espanol</a></li>
-                <li><a href="/">FAQs</a></li>
-                <li><a href="/">Investment</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a onclick="toggleMenu()" class="colorize-home" style="color: #cbab85;" href="/">Home</a></li>
+                <li><a onclick="toggleMenu()" href="/">Espanol</a></li>
+                <li><a onclick="toggleMenu()" href="/">FAQs</a></li>
+                <li><a onclick="toggleMenu()" href="/">Investment</a></li>
+                <li><a onclick="toggleMenu()" href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -29,83 +38,113 @@
         ❌ Form failed to submit ❌
     </div>
     <div class="info-form-area">
-    <div class="section">
+        <div class="section">
             <div class="column">
                 <h1>We buy houses all over the US</h1>
                 <p>Sell a house fast for cash. Any condition.</p>
             </div>
-        <div class="row">
-            <div class="column-form">
-                <h1>Get a fast cash offer!</h1>
-                <form id="formToSubmit" action="/?action=createcache#wpcf7-f89-p182-o1" method="post" class="contact-form" autocomplete="off">
-                    <input type="text" name="your-name" placeholder="Your name" autocomplete="off" required>
-                    <input type="email" name="your-email" placeholder="Your email address" autocomplete="off" required>
-                    <input type="tel" name="your-phone-number" placeholder="Your phone number" oninput="formatPhoneNumber(this)" autocomplete="off" required>
-                    <input type="text" name="address-house-selling" placeholder="Property address being sold" autocomplete="off" required>
-                    <textarea name="reason-for-selling" placeholder="Reason for selling the house" autocomplete="off" required></textarea>
-                    <textarea name="how-can-we-help" placeholder="How can we help?" autocomplete="off" required></textarea>
-                    <textarea name="condition-of-house" placeholder="Condition of the house" autocomplete="off" required></textarea>
-                    <input type="text" name="how-soon-to-sell" placeholder="How soon are you looking to sell the house?" autocomplete="off" required>
-                    <p>Submit Image (Optional)</p>
-                    <input type="file" name="house-photos" accept="image/*" autocomplete="off">
-                    <button type="submit">Get My Cash Offer</button>
-                </form>                
-                <div class="text">
-                    <p>I agree that by submitting this form and signing up for texts, you consent to receive marketing text messages. Consent is not a condition of purchase. Msg & data rates may apply. Unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available)</p>
+            <div class="row">
+                <div class="column-form">
+                    <h1>Get a fast cash offer!</h1>
+                    <form id="formToSubmit" action="/?action=createcache#wpcf7-f89-p182-o1" method="post"
+                        class="contact-form" autocomplete="off">
+                        <input type="text" name="your-name" placeholder="Your name" autocomplete="off" required>
+                        <input type="email" name="your-email" placeholder="Your email address" autocomplete="off"
+                            required>
+                        <input type="tel" name="your-phone-number" placeholder="Your phone number"
+                            oninput="formatPhoneNumber(this)" autocomplete="off" required>
+                        <input type="text" name="address-house-selling" placeholder="Property address being sold"
+                            autocomplete="off" required>
+                        <textarea name="reason-for-selling" placeholder="Reason for selling the house"
+                            autocomplete="off" required></textarea>
+                        <textarea name="how-can-we-help" placeholder="How can we help?" autocomplete="off"
+                            required></textarea>
+                        <textarea name="condition-of-house" placeholder="Condition of the house" autocomplete="off"
+                            required></textarea>
+                        <input type="text" name="how-soon-to-sell"
+                            placeholder="How soon are you looking to sell the house?" autocomplete="off" required>
+                        <p>Submit Image (Optional)</p>
+                        <input type="file" name="house-photos" accept="image/*" autocomplete="off">
+                        <button type="submit">Get My Cash Offer</button>
+                    </form>
+                    <div class="text">
+                        <p>I agree that by submitting this form and signing up for texts, you consent to receive
+                            marketing text messages. Consent is not a condition of purchase. Msg & data rates may apply.
+                            Unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available)
+                        </p>
+                    </div>
+                    <div class="button">
+                        <a href="">Accept</a>
+                    </div>
                 </div>
-                <div class="button">
-                    <a href="">Accept</a>
+                <div class="column-info">
+                    <strong>
+                        <p>Have you ever thought about selling your property? Looking for an opportunity to get fast,
+                            stress-free cash for your home?<br><br>Today, houses are worth more than ever. Want to see
+                            how much your house is worth? Contact us today to get a no-obligation, all-cash offer.</p>
+                        <p>Working with us is simple. With <span style="color: #e9ba90;">Jireh Solutions</span>, you
+                            can:</p>
+                        <ul>
+                            <li>Sell your house fast and hassle-free. No pushy salesmen, and no obligations.</li>
+                            <li>Avoid making repairs –we buy all houses ‘as-is ’nationwide.</li>
+                            <li>Save money by not listing with an agent and paying thousands in commissions.</li>
+                        </ul>
+                        <p>See how much your house is worth today!</p>
+                    </strong>
+                    <h3>Fill the form to get started</h3>
                 </div>
-            </div>
-            <div class="column-info">
-                <strong><p>Have you ever thought about selling your property? Looking for an opportunity to get fast, stress-free cash for your home?<br><br>Today, houses are worth more than ever. Want to see how much your house is worth? Contact us today to get a no-obligation, all-cash offer.</p>
-                <p>Working with us is simple. With <span style="color: #e9ba90;">Jireh Solutions</span>, you can:</p>
-                <ul>
-                    <li>Sell your house fast and hassle-free. No pushy salesmen, and no obligations.</li>
-                    <li>Avoid making repairs –we buy all houses ‘as-is ’nationwide.</li>
-                    <li>Save money by not listing with an agent and paying thousands in commissions.</li>
-                </ul>
-                <p>See how much your house is worth today!</p>
-            </strong>
-                <h3>Fill the form to get started</h3>
             </div>
         </div>
     </div>
-</div>
     <div class="container">
         <div class="column1">
             <h1>We Buy Houses Nationwide, For Cash, Fast!</h1>
             <h3><strong>Sell your house fast anywhere in the US</strong> as-is, no repairs, no problems</h3>
-            <p>Our team is ready to make you an attractive offer, and we understand the market dynamics better than anyone. We ’re not a national sales firm, we ’re a local, <strong>professional house-buying company</strong> offering personalized, dedicated service to all our clients.</p>
-            <p>Are you looking to sell your home or a home you inherited? <strong>You ’ve found the right place!</strong> I ’m confident we can help you.</p>
-            <p><strong>We pay cash for homes</strong>, which makes the entire process simple and quick. We specialize in difficult situations and have a team of experts ready to help you! </p>
-            <p>Our <strong>guaranteed all-cash offer and personalized service</strong> are the reasons so many of our customers choose us.</p>
+            <p>Our team is ready to make you an attractive offer, and we understand the market dynamics better than
+                anyone. We ’re not a national sales firm, we ’re a local, <strong>professional house-buying
+                    company</strong> offering personalized, dedicated service to all our clients.</p>
+            <p>Are you looking to sell your home or a home you inherited? <strong>You ’ve found the right
+                    place!</strong> I ’m confident we can help you.</p>
+            <p><strong>We pay cash for homes</strong>, which makes the entire process simple and quick. We specialize in
+                difficult situations and have a team of experts ready to help you! </p>
+            <p>Our <strong>guaranteed all-cash offer and personalized service</strong> are the reasons so many of our
+                customers choose us.</p>
         </div>
-    <div class="column2">
-        <h1>Selling Your Home Is Easier Than You Think</h1>
-        <p style="text-align: center;"><strong>Contact us – Call or Complete the Form</strong></p>
-        <p style="text-align: center;"><strong>You get a cash offer!</strong></p>
-        <h3>WHY JIREH SOLUTIONS?</h3>
-        <p>We have helped many of your neighbors with complicated property situations get cash for their homes – quickly and easily.</p>
-        <h4>Working with us means more money for you.</h4>
-        <p>We don’t have to work with agents or realtors, which means more money in your pocket, not the bank’s!</p>
-        <h4>We Buy As-Is! No Clean Up, No Repairs</h4>
-        <p>We pay cash, so we can buy your house no matter the condition. <a style="color: #2ea3f2;text-decoration: none;" href="https://preview.leadpropeller.com/demos/buying/elegant/too-many-repairs.html">Don’t worry about fixing anything!</a></p>
-        <h4>No Fees, No Charges.</h4>
-        <p>We don’t charge any hidden fees or include extra costs for our services. It’s one transaction – simple, easy, and cost-effective.</p>
-        <h4>No Realtor Commissions.</h4>
-        <p>You don’t need a real estate agent to sell a house. Save thousands of dollars by working directly with the buyer – us.</p>
-        <h4>Close When YOU Want!</h4>
-        <p>With cash, we close fast! If you need money now –we can close quickly! If you need some time, no problem! We will help you with whatever you need.</p>
-        <h4>Cash In Your Pocket –Today</h4>
-        <p>Paying cash means we close faster, skipping the hoops banks make buyers go through. We keep it simple, so you get paid.</p>
+        <div class="column2">
+            <h1>Selling Your Home Is Easier Than You Think</h1>
+            <p style="text-align: center;"><strong>Contact us – Call or Complete the Form</strong></p>
+            <p style="text-align: center;"><strong>You get a cash offer!</strong></p>
+            <h3>WHY JIREH SOLUTIONS?</h3>
+            <p>We have helped many of your neighbors with complicated property situations get cash for their homes –
+                quickly and easily.</p>
+            <h4>Working with us means more money for you.</h4>
+            <p>We don’t have to work with agents or realtors, which means more money in your pocket, not the bank’s!</p>
+            <h4>We Buy As-Is! No Clean Up, No Repairs</h4>
+            <p>We pay cash, so we can buy your house no matter the condition. <a
+                    style="color: #2ea3f2;text-decoration: none;"
+                    href="https://preview.leadpropeller.com/demos/buying/elegant/too-many-repairs.html">Don’t worry
+                    about fixing anything!</a></p>
+            <h4>No Fees, No Charges.</h4>
+            <p>We don’t charge any hidden fees or include extra costs for our services. It’s one transaction – simple,
+                easy, and cost-effective.</p>
+            <h4>No Realtor Commissions.</h4>
+            <p>You don’t need a real estate agent to sell a house. Save thousands of dollars by working directly with
+                the buyer – us.</p>
+            <h4>Close When YOU Want!</h4>
+            <p>With cash, we close fast! If you need money now –we can close quickly! If you need some time, no problem!
+                We will help you with whatever you need.</p>
+            <h4>Cash In Your Pocket –Today</h4>
+            <p>Paying cash means we close faster, skipping the hoops banks make buyers go through. We keep it simple, so
+                you get paid.</p>
+        </div>
     </div>
-</div>
-<footer id="contact">
-    <h1>Contact Information</h1>
-    <p>Email: <a style="color: #e9ba90;"href="mailto:Jirehsolutions137@gmail.com">Jirehsolutions137@gmail.com</a></p>
-    <p>Phone: <a style="color: #e9ba90;"href="tel:+9153182411">+1 (915) 318-2411</a></p>
-</footer>
+    <footer id="contact">
+        <h1>Contact Information</h1>
+        <p>Email: <a style="color: #e9ba90;" href="mailto:Jirehsolutions137@gmail.com">Jirehsolutions137@gmail.com</a>
+        </p>
+        <p>Phone: <a style="color: #e9ba90;" href="tel:+19153182411">+1 (915) 318-2411</a></p>
+    </footer>
     <script src="js/script.js"></script>
 </body>
+
 </html>
