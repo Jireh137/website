@@ -1,4 +1,4 @@
-console.log('This website was created for Jireh Solutions by the CodeMark Team @https://codemark.app')
+console.log('This website was created for Jireh Solutions by the QuantumDevs Team @https://quantumdevs.co')
 function formatPhoneNumber(input) {
     var phoneNumber = input.value.replace(/\D/g, '');
     var formattedPhoneNumber = '';
